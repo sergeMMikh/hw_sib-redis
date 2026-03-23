@@ -68,7 +68,7 @@ services:
 
 **Q**. Что он означает?
 
-![Part_1](image.png)
+![Part_1](img/image.png)
 
 **A**. По полям слева направо:
 1. `user default` — описывается пользователь с именем `default`.
@@ -79,7 +79,7 @@ services:
 
 5\. Проверьте, что можете устанавливать значения ключей командой: `SET users:admin@localhost id:1|name:vasya`. Это общепринятая стратегия именования ключей для Redis: `object-type:name` или `object-type:name:field`, где вместо `name` может использоваться какое-то поле, например, `login` или `id`.
 
-![Task_1-set-key](image-1.png)
+![Task_1-set-key](img/image-1.png)
 
 6\. Завершите работу контейнера, нажав `Ctrl + C` в первом терминале, где был запущен `docker-compose up`, и выполните команду `docker-compose rm` для удаления данных контейнера.
 
@@ -99,7 +99,7 @@ services:
 
 6\. Выполните команду `AUTH default`, запишите вывод. Его нужно будет прислать в результатах выполнения домашнего задания.
 
-![Task_2-off-default](image-2.png)
+![Task_2-off-default](img/image-2.png)
 
 7\. Завершите работу контейнера, нажав `Ctrl + C` в первом терминале, где был запущен `docker-compose up`, и выполните команду `docker-compose rm` для удаления данных контейнера.
 
@@ -125,21 +125,21 @@ services:
 4\. Аутентифицируйтесь с помощью команды `AUTH app password`, где вместо `password` подставьте пароль, полученный из хеша. Вам нужно будет вспомнить, как доставать из хеша пароли.
 
 Через хэш подобрал пароль используя [скрипт](https://github.com/sergeMMikh/hw-crypto-theory-symmetric)
-![alt text](image-3.png)
+![alt text](img/image-3.png)
 
-![Task_3-passwd](image-4.png)
+![Task_3-passwd](img/image-4.png)
 
 5\. Выполните команду `ACL WHOAMI`, запишите вывод. Его нужно будет прислать в результатах выполнения домашнего задания.
 
-![Task_3 ACL WHOAMI](image-5.png)
+![Task_3 ACL WHOAMI](img/image-5.png)
 
 6\. Выполните команду `ACL LIST`, запишите вывод. Его нужно будет прислать в результатах выполнения домашнего задания.
 
-![Task_3_ACL LIST](image-6.png)
+![Task_3_ACL LIST](img/image-6.png)
 
 7\. Проверьте, что вы можете устанавливать значения ключей командой: `SET users:admin@localhost id:1|name:vasya`. Это общепринятая стратегия именования ключей для Redis: `object-type:name` или `object-type:name:field`, где вместо `name` может использоваться какое-то поле, например, `login` или `id`.
 
-![Task_3 set](image-7.png)
+![Task_3 set](img/image-7.png)
 
 8\. Завершите работу контейнера, нажав `Ctrl + C` в первом терминале, где был запущен `docker-compose up`, и выполните команду `docker-compose rm` для удаления данных контейнера.
 
@@ -155,15 +155,15 @@ services:
 
 4\. Выполните команду `ACL WHOAMI`, запишите вывод. Его нужно будет прислать в результатах выполнения домашнего задания.
 
-![Task_-_4-ACL WHOAMI](image-8.png)
+![Task_-_4-ACL WHOAMI](img/image-8.png)
 
 5\. Выполните команду `ACL LIST`, запишите вывод. Его нужно будет прислать в результатах выполнения домашнего задания.
 
-![Task_4-ACL LIST](image-9.png)
+![Task_4-ACL LIST](img/image-9.png)
 
 6\. Проверьте, что можете устанавливать значения ключей командой: `SET users:admin@localhost id:1|name:vasya`. Это общепринятая стратегия именования ключей для Redis: `object-type:name` или `object-type:name:field`, где вместо `name` может использоваться какое-то поле, например, `login` или `id`.
 
-![Task_4-Set](image-10.png)
+![Task_4-Set](img/image-10.png)
 
 7\. Завершите работу контейнера, нажав `Ctrl + C` в первом терминале, где был запущен `docker-compose up`, и выполните команду `docker-compose rm` для удаления данных контейнера.
 
@@ -177,16 +177,16 @@ services:
 
 1. По части 2: выводы команд `ACL WHOAMI`, `ACL LIST`, `AUTH default`.
 
-![Task_2-off-default](image-2.png)
+![Task_2-off-default](img/image-2.png)
 
 2. По части 3: выводы команд `ACL WHOAMI`, `ACL LIST`.
 
-![Task_3 ACL WHOAMI](image-5.png)
+![Task_3 ACL WHOAMI](img/image-5.png)
 
-![Task_3_ACL LIST](image-6.png)
+![Task_3_ACL LIST](img/image-6.png)
 
 3. По части 4: выводы команд `ACL WHOAMI`, `ACL LIST`.
 
-![Task_-_4-ACL WHOAMI](image-8.png)
+![Task_-_4-ACL WHOAMI](img/image-8.png)
 
-![Task_4-ACL LIST](image-9.png)
+![Task_4-ACL LIST](img/image-9.png)
