@@ -175,17 +175,17 @@ services:
 
 Пришлите в личном кабинете студента ответы на вопросы, указанные в разделе **«Выполнение»**:
 
-1. По части 2: выводы команд `ACL WHOAMI`, `ACL LIST`, `AUTH default`.
+1. **По части 2**: выводы команд `ACL WHOAMI`, `ACL LIST`, `AUTH default`.
 
 ![Task_2-off-default](img/image-2.png)
 
-2. По части 3: выводы команд `ACL WHOAMI`, `ACL LIST`.
+2. **По части 3**: выводы команд `ACL WHOAMI`, `ACL LIST`.
 
 ![Task_3 ACL WHOAMI](img/image-5.png)
 
 ![Task_3_ACL LIST](img/image-6.png)
 
-3. По части 4: выводы команд `ACL WHOAMI`, `ACL LIST`.
+3. **По части 4**: выводы команд `ACL WHOAMI`, `ACL LIST`.
 
 ![Task_-_4-ACL WHOAMI](img/image-8.png)
 
